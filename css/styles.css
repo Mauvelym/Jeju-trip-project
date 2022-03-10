@@ -7,7 +7,6 @@
 }
 
 #header {
-  background-color: skyblue;
   border-bottom: 1px solid black;
   padding: 10px;
   display: grid;
@@ -35,10 +34,8 @@
 }
 
 .menu> ul > li {
-  padding: 0 0 0 30px
+  padding: 0 0 0 30px;
 }
-
-
 
 .menu> ul > li a:hover {
   color: gray;
@@ -51,7 +48,7 @@
 
 .signup_btn {
   border: 1px solid grey;
-  background-color: yellow;
+  background-color: white;
 }
 
 .search{
