@@ -11,6 +11,7 @@
   padding: 10px;
   display: grid;
   grid-template-areas: 'logo menu';
+  align-items: center;
 }
 
 .logo {
@@ -27,6 +28,7 @@
 
 .menu> ul{  
   display: flex;
+  padding-left: 1000px;
 }
 
 .menu> li> a{
@@ -34,7 +36,7 @@
 }
 
 .menu> ul > li {
-  padding: 0 0 0 30px;
+  padding: 0px 0 0 30px;
 }
 
 .menu> ul > li a:hover {
