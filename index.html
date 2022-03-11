@@ -25,7 +25,7 @@
     <nav>
       <div class="menu">
         <ul>
-          <li><a href="#" class="login_btn">로그인</a></li>
+          <li><a href="#popup1" class="login_btn">로그인</a></li>
           <li><a href="#" class="signup_btn">회원가입</a></li>
         </ul>
       </div>
@@ -33,10 +33,21 @@
   </header>
 
   <div class="search">
-    <div class="text1">
+    <div class="hellojeju_text">
       <p>혼저옵서예 제주</p>
-      <input type="search" placeholder="가고싶은 장소를 검색하세요">
-      <input type="search" placeholder="날짜">
+    </div>
+    <div class="form-wrap">     
+      <form class="location-search">
+        <div class="location">
+          <input type="text" id="search-loaction" placeholder="가고싶은 장소를 검색하세요">
+        </div>
+      </form>
+
+      <form class="calendar-search">
+        <div class="calendar">
+          <input type="text" id="search-loaction" placeholder="날짜">
+        </div>
+      </form>
     </div>
   </div>
 
@@ -47,58 +58,80 @@
 
   <div class="theme">
     <p>추천 테마</p>
-    <ul class="recommendation">
-      <li>
-        <div class="rest">
-          <img src="images/rest2.jpg">
-        </div>
-      </li>
-      <li>
-        <div class="nature">
-          <img src="images/nature2.jpg">
-        </div>
-      </li>
-      <li>
-        <div class="family">
-          <img src="images/family2.jpg">
-        </div>
-      </li>
-      <li>
-        <div class="restaurant">
-          <img src="images/restaurant2.jpg">
-        </div>
-      </li>
-      <li>
-        <div class="festival">
-          <img src="images/flowerfestival2.jpg">
-        </div>
-      </li>
-      <li>
-        <div class="couple">
-          <img src="images/couple2.jpg">
-        </div>
-      </li>
-    </ul>    
+    <div class="recommendation">
+      <div class="rest">
+        <img src="images/rest2.jpg">
+      </div>
+      <div class="nature">
+        <img src="images/nature2.jpg">
+      </div>
+      <div class="family">
+        <img src="images/family2.jpg">
+      </div>
+      <div class="rest_btn">
+        <a href="#" class="rest__btn">#rest</a>
+      </div>
+      <div class="nature_btn">
+        <a href="#" class="nature__btn">#nature</a>
+      </div>
+      <div class="family_btn">
+        <a href="#" class="family__btn">#family</a>
+      </div>
+      <div class="restaurant">
+        <img src="images/restaurant2.jpg">
+      </div>
+      <div class="festival">
+        <img src="images/flowerfestival2.jpg">
+      </div>
+      <div class="couple">
+        <img src="images/couple2.jpg">
+      </div>
+      <div class="restaurant_btn">
+        <a href="#" class="restaurant__btn">#restaurant</a>
+      </div>
+      <div class="festival_btn">
+        <a href="#" class="festival__btn">#festival</a>
+      </div>
+      <div class="couple_btn">
+        <a href="#" class="couple__btn">#couple</a>
+      </div>
+    </div>    
   </div>
 
 
   <div class="reminiscence">
     <p>제주도에서의 추억을 공유해 보세요</p>
-    <ul class="reminiscence">
+    <ul>
+      <li>
+        <div class="left_arrow">
+          <img src="images/left_arrow.png">
+        </div>
+      </li>      
       <li>
         <div class="rest">
           <img src="images/rest2.jpg">
         </div>
       </li>
+
       <li>
         <div class="nature">
           <img src="images/nature2.jpg">
         </div>
       </li>
+
       <li>
         <div class="family">
           <img src="images/family2.jpg">
         </div>
+      </li>
+
+      <li>
+        <div class="right_arrow">
+          <img src="images/right_arrow.png">
+        </div>          
+      </li>
+
+    </ul>
   </div>
  
  

@@ -8,27 +8,28 @@
 
 #header {
   border-bottom: 1px solid black;
-  padding: 10px;
+  padding: 0px;
   display: grid;
   grid-template-areas: 'logo menu';
+  background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
+  width: 100%;
 }
 
 .logo {
   grid-area: logo;
   padding: 5px;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 .menu {
   grid-area: menu;
   font-family: 'NanumSquareRoundB';
-  font-size: 15px;
 }
 
 .menu> ul{  
   display: flex;
-  padding-left: 1000px;
+  padding-left: 700px;
 }
 
 .menu> li> a{
@@ -37,6 +38,7 @@
 
 .menu> ul > li {
   padding: 0px 0 0 30px;
+  align-items: center;
 }
 
 .menu> ul > li a:hover {
@@ -44,13 +46,22 @@
 }
 
 .login_btn {
-  border: 1px solid grey;
-  background-color: white;
+  color: rgba(255, 255, 255, 0.767);
+  border: 2px solid grey;
+  padding: 6px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .signup_btn {
-  border: 1px solid grey;
-  background-color: white;
+  color: rgba(255, 255, 255, 0.767);
+  border: 2px solid grey;
+  padding: 6px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 15px;
 }
 
 .search{
@@ -59,11 +70,35 @@
   height: 130vh;
 }
 
-.text1{
+.hellojeju_text{
   text-align: center;
   padding-top: 100px;
-  font-size: 90px;
+  font-size: 80px;
   font-family: 'MaruBuriBold';
+}
+
+.form-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border: none;
+  border-radius: 150px;
+  background-color: white;
+  font-size: 1rem;
+  padding: 5px;
+  width: 350px;
+  text-align: center;
+}
+
+.location-search {
+  padding-top:100px;
+  padding-right: 20px;
+}
+.calendar-search {
+  padding-top: 100px;
+  padding-left: 20px;
 }
 
 .text2{
@@ -76,49 +111,162 @@
 }
 
 .theme{
-  font-size: 25px;
-  padding-left: 150px;
+  font-size: 20px;
   padding-bottom: 150px;
 }
 
-.theme> p{
+.theme> p {
+  padding-left: 125px;
   padding-bottom: 20px;
 }
 
-.theme> ul > li {
-  display: flex; 
-  display: inline-block;
-  padding-right: 25px; 
-  padding-top: 25px;
+.recommendation {
+  display: grid;
+  grid-template-areas: 'rest nature family'
+                       'rest_btn nature_btn family_btn'
+                       'restaurant festival couple'
+                       'restaurant_btn festival_btn couple_btn';
+
+  grid-gap: 10px                      }
+
+.rest {
+  grid-area: rest;
+  padding-left: 125px;
+}
+.nature {
+  grid-area: nature;
+}
+.family {
+  grid-area: family;
+  padding-right: 125px;
+}
+.rest_btn {
+  grid-area: rest_btn;
+  padding : 10px 0px 14px 365px;
+}
+
+.nature_btn {
+  grid-area: nature_btn;
+  padding : 10px 0px 14px 215px;
+}
+
+.family_btn {
+  grid-area: family_btn;
+  padding : 10px 0px 14px 220px;
+}
+
+.rest__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
+}
+
+.nature__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
+}
+
+.family__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
+}
+
+.restaurant {
+  padding-left: 125px;
+  grid-area: restaurant;
+}
+.festival {
+  grid-area: festival;
+}
+.couple {
+  grid-area: couple;
+}
+.restaurant_btn {
+  grid-area: restaurant_btn;
+  padding : 10px 0px 14px 305px;
+}
+.festival_btn {
+  grid-area: festival_btn;
+  padding : 10px 0px 14px 210px;
+}
+.couple_btn {
+  grid-area: couple_btn;
+  padding : 10px 0px 14px 215px;
+}
+
+.restaurant__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
+}
+
+.festival__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
+}
+
+.couple__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
 }
 
 .reminiscence{
-  font-size: 25px;
-  padding-left: 75px;
-  padding-bottom: 90px;
+  font-size: 20px;
+  padding-bottom: 150px;
 }
 
 .reminiscence> p{
-  margin-left: 75px;
-  padding-bottom: 0px;
+  padding-left: 125px;
+}
+
+.reminiscence> ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
 .reminiscence> ul > li {
-  display: flex; 
-  display: inline-block;
-  padding-right: 25px; 
   padding-top: 25px;
-  padding-bottom: 0px;
+}
+
+.left_arrow {
+  padding-top: 140px;
+}
+
+.right_arrow {
+  padding-top: 140px;
 }
 
 .jejucoronaandweather-wrap{
-  font-size: 25px;
+  font-size: 20px;
   padding-left: 450px;
   padding-right: 450px;
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .corona-image {
@@ -145,7 +293,7 @@
   background-color: white;
   padding-top: 150px;
   padding-bottom: 150px;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'NanumGothic';
   margin: 0 auto;
 }
