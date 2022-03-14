@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+#header {
+  border-bottom: 1px solid black;
+  padding: 0px;
+  display: grid;
+  grid-template-areas: 'logo menu';
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  grid-area: logo;
+  padding: 5px;
+  padding-left: 100px;
+}
+
+.menu {
+  grid-area: menu;
+  font-family: 'NanumSquareRoundB';
+}
+
+.menu> ul{  
+  display: flex;
+  padding-left: 700px;
+}
+
+.menu> li> a{
+  line-height: 88px;
+}
+
+.menu> ul > li {
+  padding: 0px 0 0 30px;
+  align-items: center;
+}
+
+.menu> ul > li a:hover {
+  color: gray;
+}
+
+.login_btn {
+  color: rgba(255, 255, 255, 0.767);
+  border: 2px solid grey;
+  padding: 6px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup_btn {
+  color: rgba(255, 255, 255, 0.767);
+  border: 2px solid grey;
+  padding: 6px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 15px;
+}
+
+.upload_title > ul {
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hashtag {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  height: 20px;
+  width: 250px;
+}
+
+.heading {
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  height: 20px;
+  width: 600px;
+}
+
+.paper {
+  padding-top: 20px;
+  padding-left: 166px;
+}
+
+.paper_window {
+  color: black;
+  border: 1px solid black;
+  height: 330px;
+  width: 945px;
+}
+
+.modicifaction_and_upload > ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 15px;
+  padding-left: 565px;
+  padding-right: 565px;
+}
+
+.modification_btn {
+  padding-top: 30px;
+}
+
+.modification__btn {
+  color: black;
+  border: 1px solid black;
+  padding: 3px 15px;
+  background: transparent;
+  text-align: center;
+}
+
+.paperupload_btn {
+  padding-top: 30px;
+}
+
+.paperupload__btn {
+  color:black;
+  border: 1px solid black;
+  padding: 3px 15px;
+  background: transparent;
+  text-align: center;
+}

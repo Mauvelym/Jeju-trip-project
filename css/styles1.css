@@ -232,31 +232,54 @@ input {
   text-align: center;
 }
 
-.reminiscence{
+.memory{
   font-size: 20px;
   padding-bottom: 150px;
 }
 
-.reminiscence> p{
-  padding-left: 125px;
+.memory> p{
+  padding-left: 130px;
 }
 
-.reminiscence> ul {
+.memory> ul {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
-.reminiscence> ul > li {
+.memory> ul > li {
   padding-top: 25px;
 }
 
 .left_arrow {
   padding-top: 140px;
+  padding-left: 50px;
 }
 
 .right_arrow {
   padding-top: 140px;
+  padding-right: 50px;
+}
+
+.photo {
+  text-align: center;
+  color: black;
+  border: 2px solid black;
+  height: 300px;
+  width: 250px;
+}
+
+.upload_btn {
+  padding-top: 30px;
+  padding-left: 585px;
+}
+
+.upload__btn {
+  color: black;
+  border: 2px solid black;
+  padding: 3px 15px;
+  border-radius: 100px;
+  background: transparent;
+  text-align: center;
 }
 
 .jejucoronaandweather-wrap{
