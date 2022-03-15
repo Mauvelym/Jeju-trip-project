@@ -19,7 +19,7 @@
 
     <div class="logo">
       <a href="index.html">
-        <img src="images/gyulharbang.jpg" width="50px" height="50px" alt="돌하르방 홈페이지 로고" title="Home">
+        <img src="images/gyulharbang.jpg" width="40px" height="40px" alt="돌하르방 홈페이지 로고" title="Home">
       </a>
     </div>
     <div>
@@ -39,21 +39,27 @@
       <p>혼저옵서예 제주</p>
     </div>
     <div class="form-wrap">     
-      <form class="location-search">
+      <form class="locationsearch">
         <div class="location">
-          <input type="text" id="search-loaction" placeholder="가고싶은 장소를 검색하세요">
+          <input type="text" id="search-location" placeholder="가고싶은 장소를 검색하세요">
+          <i class="searching">
+            <img src="images/searching.png" width="20px" height="20px" alt="검색 아이콘">
+          </i>
         </div>
       </form>
 
       <form class="calendar-search">
         <div class="calendar">
-          <input type="text" id="search-loaction" placeholder="날짜">
+          <input type="text" id="search-location" placeholder="날짜">
+          <i class="caldendar_searching">
+            <img src="images/calendar.png" width="20px" height="20px" alt="달력 아이콘">
+          </i>
         </div>
       </form>
     </div>
   </div>
 
-  <div class="text2">
+  <div class="search_text">
     <h1>코로나로 지친 마음을</h1>
     <h2>제주 여행으로 달래 보세요</h2>
   </div>
@@ -62,13 +68,13 @@
     <p>추천 테마</p>
     <div class="recommendation">
       <div class="rest">
-        <img src="images/rest2.jpg">
+        <img src="images/rest2.jpg" alt="휴식 테마">
       </div>
       <div class="nature">
-        <img src="images/nature2.jpg">
+        <img src="images/nature2.jpg" alt="자연 테마">
       </div>
       <div class="family">
-        <img src="images/family2.jpg">
+        <img src="images/family2.jpg" alt="가족 테마">
       </div>
       <div class="rest_btn">
         <a href="#" class="rest__btn">#rest</a>
@@ -80,13 +86,13 @@
         <a href="#" class="family__btn">#family</a>
       </div>
       <div class="restaurant">
-        <img src="images/restaurant2.jpg">
+        <img src="images/restaurant2.jpg" alt="맛집 테마">
       </div>
       <div class="festival">
-        <img src="images/flowerfestival2.jpg">
+        <img src="images/flowerfestival2.jpg" alt="축제 테마">
       </div>
       <div class="couple">
-        <img src="images/couple2.jpg">
+        <img src="images/couple2.jpg" alt="커플 테마">
       </div>
       <div class="restaurant_btn">
         <a href="#" class="restaurant__btn">#restaurant</a>
@@ -102,11 +108,27 @@
 
 
   <div class="memory">
-    <p>제주도에서의 추억을 공유해 보세요</p>
+    <div class="memory_title">
+      <div class="memory_p_tag">
+        <ul>
+          <li>제주도에서의 추억을 공유해 보세요</li>
+          <li>      
+            <div class="view_btn_class">
+              <div class="view_btn">
+                <i class="plus">
+                  <img src="images/plus.png" width="15px" height="15px" alt="플러스 아이콘">
+                </i>
+                <a href="board_list.html" class="board__list">더보기</a>
+              </div>
+            </div>
+          </li>
+      </div>     
+    </div>
+        </ul>
     <ul>
       <li>
         <div class="left_arrow">
-          <img src="images/left_arrow.png">
+          <img src="images/left_arrow.png" alt="왼쪽 화살표 아이콘">
         </div>
       </li>
       <li>
@@ -120,7 +142,7 @@
       </li>
       <li>
         <div class="right_arrow">
-          <img src="images/right_arrow.png">
+          <img src="images/right_arrow.png" alt="오른쪽 화살표 아이콘">
         </div>
       </li>
     </ul>

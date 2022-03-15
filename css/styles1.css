@@ -14,6 +14,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   align-items: center;
   width: 100%;
+  position: fixed;
 }
 
 .logo {
@@ -66,7 +67,7 @@
 
 .search{
   background: url(../images/jejusunset.jpg);
-  background-size: 210vh;
+  background-size: 100vw;
   height: 130vh;
 }
 
@@ -92,16 +93,28 @@ input {
   text-align: center;
 }
 
-.location-search {
+.locationsearch {
   padding-top:100px;
   padding-right: 20px;
+}
+
+.searching{
+  position: absolute;
+  left: 585px;
+  bottom: 275px;
 }
 .calendar-search {
   padding-top: 100px;
   padding-left: 20px;
 }
 
-.text2{
+.caldendar_searching {
+  position: absolute;
+  left: 980px;
+  bottom: 275px;
+}
+
+.search_text{
   text-align: center;
   background-color: white;
   padding-top: 150px;
@@ -237,9 +250,35 @@ input {
   padding-bottom: 150px;
 }
 
-.memory> p{
+.memory_title{
   padding-left: 130px;
 }
+
+.memory_p_tag > ul{
+  display: flex;
+}
+
+.view_btn_class {
+  padding-top: 2px;
+  padding-left: 11px;
+}
+
+.view_btn {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding-left: 9px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+.plus{
+  position: relative;
+  top: 1.5px;
+}
+
+
 
 .memory> ul {
   display: flex;
