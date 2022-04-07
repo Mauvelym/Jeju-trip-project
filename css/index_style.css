@@ -56,6 +56,16 @@
   cursor: pointer;
 }
 
+.login_btn_change {
+  color : yellow;
+  border: 2px solid grey;
+  padding: 6px 15px;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 .signup_btn {
   color: rgba(255, 255, 255, 0.767);
   border: 2px solid grey;
