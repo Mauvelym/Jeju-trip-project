@@ -6,6 +6,12 @@
   color: #000;
 }
 
+* button{
+  background: none;
+  cursor: pointer;
+  border-style: none;
+}
+
 #header {
   border-bottom: 1px solid black;
   padding: 0px;
@@ -73,6 +79,8 @@
   border-radius: 10px;
   background: transparent;
   font-size: 15px;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .search{
@@ -108,20 +116,36 @@ input {
   padding-right: 20px;
 }
 
-.searching{
+#searching{
   position: absolute;
-  left: 585px;
-  bottom: 275px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
 }
+
 .calendar-search {
   padding-top: 100px;
   padding-left: 20px;
 }
 
-.caldendar_searching {
+.searching_btn_space {
+  display: inline-block;
+}
+#caldendar_searching {
   position: absolute;
   left: 980px;
   bottom: 275px;
+}
+
+.caldendar_btn{
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+} 
+
+.calendar_btn_space {
+  display: inline-block;
 }
 
 .search_text{
@@ -286,6 +310,10 @@ input {
 .plus{
   position: relative;
   top: 1.5px;
+  cursor: pointer;
+  background: none;
+  border: 0;
+  outline: 0;
 }
 
 
@@ -302,11 +330,19 @@ input {
 .left_arrow {
   padding-top: 140px;
   padding-left: 50px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: none;
 }
 
 .right_arrow {
   padding-top: 140px;
   padding-right: 50px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: none;
 }
 
 .photo {

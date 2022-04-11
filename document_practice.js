@@ -39,12 +39,12 @@
 // // footer 밑에 div 태그가 추가되어 구현됨
 
 // // menu class 밑에 div/li 태그가 추가되게 하려면?
-const menu = document.querySelector('.menu');
-const add_div = document.createElement('div');
-const add_li = document.createElement('li');
-// // > 변수를 2개를 지정해줘야 하는데 아직 익숙하지 않아서 실수가 많이 일어남
-menu.append(add_div);
-menu.append(add_li);
+// const menu = document.querySelector('.menu');
+// const add_div = document.createElement('div');
+// const add_li = document.createElement('li');
+// // // > 변수를 2개를 지정해줘야 하는데 아직 익숙하지 않아서 실수가 많이 일어남
+// menu.append(add_div);
+// menu.append(add_li);
 // 
 // // menu의 손자 li 추가하기 시도1
 // const menu_ul = document.querySelector('.menu > ul');
@@ -52,10 +52,10 @@ menu.append(add_li);
 // menu_ul.append('menu_li');
 // // 여전히 ul태그가 있는데 무엇이 문제일까..
 
-// // menu의 손자 li 추가하기 시도1
-// const menu_ul = document.querySelector('.menu > ul');
-// const menu_li = document.createElement('li')
-// menu_ul.append('menu_li');
+// // menu의 손자 li 추가하기 시도2
+const menu_ul = document.querySelectorAll('.menu > ul')[0];
+const menu_li = document.createElement('li')
+document.querySelector('.menu_ul').appendChild('menu_li');
 // // 여전히 ul태그가 있는데 무엇이 문제일까..
 
 
